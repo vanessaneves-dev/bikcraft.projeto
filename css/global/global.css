@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1200px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+img[src$=".jpg"] {
+  /* os [] são seletores que podem selecionar algo especifico dentro dele, no caso um elemento que tneha src(source) e colocando ($=) que tenha ultima palavra no caso "".jpg", isso dentro de img pois foi selecionada   */
+  border-radius: 4px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  /* incluindo o valor para todos oa "a" para que eles herdem as caracteristicas de cores do elemento pai  */
+}

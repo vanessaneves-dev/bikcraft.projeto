@@ -1,0 +1,43 @@
+.introducao-bg {
+  background: var(--cor-12) url('../../img/dec/bottom-left.svg') no-repeat
+   bottom 160px left 20px;
+  box-shadow: inset 0px -120px 0px var(--cor-0);
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+.introducao-conteudo h1 {
+  margin-bottom: 22px;
+}
+.ponto {
+  color: var(--cor-p1);
+}
+.introducao-conteudo p {
+  margin-bottom: 20px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: var(--cor-12);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    box-shadow: inset 0px -40px 0px var(--cor-0);
+  }
+  .introducao-conteudo {
+    padding-bottom: 20px;
+  }
+}
