@@ -1,11 +1,16 @@
 .termos h2 {
   font-weight: 600;
   margin-bottom: 20px;
-}
-.termos h2 {
   margin-top: 20px;
+  cursor: pointer;
 }
+
 .termos p {
+  display: none;
   margin-bottom: 24px;
   max-width: 75ch;
+}
+
+.termos p.ativo  {
+  display: block;
 }
